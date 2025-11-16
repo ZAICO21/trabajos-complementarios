@@ -1,0 +1,86 @@
+<!-- ENUNCIADO -->
+<!-- 
+Crea una pequeña página web que represente la ficha de un curso.
+
+Tu página debe incluir lo siguiente:
+1. Un título principal con el nombre del curso, subtítulo indicando el código del curso y 
+    un encabezado que indique el nivel del curso.
+2. Un párrafo describiendo de qué trata el curso y un link que direccione al curso.
+4. Una imagen relacionada al curso.
+5. Una lista ordenada (ol) con 3 requisitos.
+6. Una tabla de estilo libre que represente el horario del curso
+7. Cada punto debe estar organizado dentro de divs separados con nombres de clases.
+
+
+<!-- RESPUESTA -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha del Curso</title>
+</head>
+<body>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="contenedor-principal">
+
+        <!-- TÍTULO DEL CURSO -->
+        <div class="titulo">
+            <h1>Curso de Python</h1>
+            <h2>Código: RSH-445</h2>
+            <h3>Nivel: Intermedio</h3>
+        </div>
+
+        <!-- DESCRIPCIÓN -->
+        <div class="descripcion">
+            <h3>Descripción del curso</h3>
+            <p>En este curso aprenderás la programación orientada a objetos
+                en Python.</p>
+            <a href="#" target="_blank">Ir al curso</a>.
+        </div>
+
+        <!-- IMAGEN -->
+        <div class="imagen">
+            <h3>Imagen del curso</h3>
+            <img src="https://beecrowd.com/wp-content/uploads/2024/04/2022-07-19-Melhores-cursos-de-Python.jpg" 
+                 alt="Curso de Python">
+        </div>
+
+        <!-- LISTA DE REQUISITOS -->
+        <div class="requisitos">
+            <h3>Requisitos del curso</h3>
+            <ol>
+                <li>Computadora o laptop</li>
+                <li>Conexión a internet</li>
+                <li>Ganas de aprender</li>
+            </ol>
+        </div>
+
+        <!-- TABLA -->
+        <div class="tabla">
+            <h3>Contenido por semanas</h3>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <tr>
+                    <th>Semana</th>
+                    <th>Tema</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Introducción a POO</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Herencia</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Polimorfismo</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
